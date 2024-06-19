@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(170, 216, 216);
+}
+
+header{
+    border: 2px solid rgb(112, 139, 139);
+    min-width: 320px;
+    width: 100%;
+    display: inline-flex;
+}
+
+header .titulo{
+    display: flex;
+    padding: 10px;
+    color: #007575;
+}
+
+main{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    min-width: 320px;
+    width: 100%;
+    min-height: 100px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    background-color: #667b92;
+    width: 20%;
+    min-height: 500px;
+    height: 100%;
+    padding: 40px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 12px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+main .tablero{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 700px;
+    height: 60%;
+
+}
+
+main .contenido-tablero{
+    width: 90%;
+    border: 2px solid rgb(112, 139, 139);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 850px;
+    background-color: #ffffff;
+}
+
+main .titulo-tablero{
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+main .cartas-tablero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 320px;
+    min-height: 200px;
+    height: 100%;
+    width: 100%;
+    gap: 20px 20px;
+    padding: 10px 20px 10px;
+    overflow-y: scroll;
+}
+
+main .cartas-tablero .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: 1px solid #4b98ac;
+    border-radius: 2px;
+    width: 20%;
+    height: 25%;
+    overflow: hidden;
+}
+
+main .cartas-tablero .card img{
+    width: 60%;
+}
+
+main .cartas-tablero .card .info{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    gap: 4px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    z-index: 1;
+    background-color: #1b1b1b94;
+    color: rgb(253, 252, 252);
+    font-weight: 700;
+}
+
+main .cartas-tablero .card .info p{
+    font-size: 1rem;
+}
+
+main .cartas-tablero .card .info a{
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    align-self: end;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    font-size: .8rem;
+}
+
+
+main .cartas-tablero .card .info a:hover{
+    background-color: #ffffff;
+    color: #333;
+}
+
+footer{
+    position: absolute;
+    top: 57%;
+    width: 25%;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+
+
