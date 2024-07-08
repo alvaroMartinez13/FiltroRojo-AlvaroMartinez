@@ -17,7 +17,7 @@ Pasos para instalar y configurar el entorno de desarrollo del proyecto. Incluye 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu_usuario/nombre_del_proyecto.git](https://github.com/alvaroMartinez13/Bluenix.git
+[[git clone https://github.com/alvaroMartinez13/FiltroRojo-AlvaroMartinez.git
 
 # Navegar al directorio del proyecto
 cd FiltroRojo
