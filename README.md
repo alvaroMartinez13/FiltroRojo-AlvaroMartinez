@@ -26,11 +26,11 @@ cd FiltroRojo
 Go live (Debe seleccionar el archivo index.html)
 ```
 ## ⚡ Características
-  - Presentación de todos los productos
-  - Abrigos
-  - Camisetas
-  - Pantalones
-  - Sesión Carrito
+Presentación de todos los productos:
+- Abrigos
+- Camisetas
+- Pantalones
+- Sesión Carrito
 
 ## 📒 Contacto
 - LinkedIn: www.linkedin.com/in/alvaro-andres-martinez-alcina-4a0976316
